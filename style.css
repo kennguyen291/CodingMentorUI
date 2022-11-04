@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'AdiHaus';
+    src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "AdiHaus";
+    src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+body, html {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    font-family: AdiHaus;
+}
+
+.all-container {
+    padding: 0px 20px;
+}
+
+.flex-gap{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    column-gap: 70vw;
+    background-color: rgb(231, 229, 229);
+}
+
+.link {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation-bar {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.tab-container {
+    justify-content: center;
+
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+img{
+    height: 500px;
+    width: auto;
+}
+
+.info-bar{
+    background-color: rgb(231, 229, 229);
+}
+
+.jordan-logo img{
+    height: 50px;
+    width: auto;
+}
+
+.nike-logo img{
+    height: 30px;
+    width: auto;
+}
